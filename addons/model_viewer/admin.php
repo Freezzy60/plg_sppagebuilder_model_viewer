@@ -89,7 +89,7 @@ SpAddonsConfig::addonConfig(
 					
 					'content_zoom_min' => [
 						'type' => 'slider',
-						'title' => 'Min. Field of View',
+						'title' => Text::_('PLG_BITS_MODEL_VIEWER_MIN_FIELD_OF_VIEW'),
 						'max' => 180,
 						'min' => 0,
 						'std' => 25,
@@ -97,7 +97,7 @@ SpAddonsConfig::addonConfig(
 					
 					'content_zoom_max' => [
 						'type' => 'slider',
-						'title' => 'Max. Field of View',
+						'title' => Text::_('PLG_BITS_MODEL_VIEWER_MAX_FIELD_OF_VIEW'),
 						'max' => 180,
 						'min' => 0,
 						'std' => 35,
@@ -105,13 +105,13 @@ SpAddonsConfig::addonConfig(
 					
 					'content_disable_zoom' => [
 						'type' => 'checkbox',
-						'title' => 'Disable Zoom',
+						'title' => Text::_('PLG_BITS_MODEL_VIEWER_DISABLE_ZOOM'),
 						'std' => 0,
 					],
 					
 					'content_shadow_intensity' => [
 						'type' => 'slider',
-						'title' => 'Shadow',
+						'title' => Text::_('PLG_BITS_MODEL_VIEWER_SHADOW_INTENSITY'),
 						'max' => 10,
 						'min' => 0,
 						'std' => 1,
